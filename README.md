@@ -1,6 +1,6 @@
 # GaugeView
 
-🕹Gauge views (charts) for Android.
+Gauge views (charts) for Android.
 
 ![](https://raw.githubusercontent.com/zhjl37/GaugeView/main/screenshot.jpeg)
 
