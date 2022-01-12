@@ -7,7 +7,7 @@ Gauge views (charts) for Android.
 ## Gradle
 
 ```
-implementation '...'
+implementation 'com.zhjl37.gaugeview:gaugeview:1.0.0'
 ```
 
 ## Usage
@@ -23,3 +23,15 @@ implementation '...'
     app:useGradient="[true|false]" />
 ```
 
+### Initialize GaugeView
+
+```
+gaugeView.setLabel("BMI");
+gaugeView.setAdapter(new Adapter4Test());
+```
+
+### Sets the current value
+
+```
+gaugeView.setCurrent(20f);
+```
